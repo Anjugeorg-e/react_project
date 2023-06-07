@@ -1,9 +1,11 @@
 {
   "invent": {
     "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSBuild-HPHero-?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1920&hei=700&qlt=100&fmt=png-alpha&fit=constrain",
+    "imgDesktopUrl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSBuild-HPHero-?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1920&hei=700&qlt=100&fmt=png-alpha&fit=constrain",
     "azureSubhead": "AZURE. INVENT WITH PURPOSE.",
     "azureSubheadTwo": "Learn, connect, and explore",
     "azureHeadingParagraph": "Envision and create intelligent apps with the latest technologies announced at Microsoft Build. Get started now with pay-as-you-go pricing. There’s no upfront commitment—cancel anytime. Or try Azure free for up to 30 days."
+    
   },
   "onprimise": [
     {
