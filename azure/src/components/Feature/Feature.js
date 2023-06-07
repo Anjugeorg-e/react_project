@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
-import './Feature.css';
+import "./Feature.css";
+import AzureProductCard from "./AzureProductCard/AzureProductCard";
 
 function Feature() {
   const [data, setData] = useState([]);
-//   const [nav, setNav] = useState([]);
+  //   const [nav, setNav] = useState([]);
+  const [show, setShow] = useState("featured");
   const [feature, setFeature] = useState([]);
   const [ai, setAi] = useState([]);
   const [compute, setCompute] = useState([]);
@@ -25,7 +27,7 @@ function Feature() {
         setCompute(item.Compute);
         setContainer(item.Containers);
         setHybrid(item.HybridMulticloud);
-        setIot(item.)
+        setIot(item.InternetOfThings);
       });
   };
 
@@ -33,8 +35,40 @@ function Feature() {
     fetchData();
   }, []);
 
+  const handleClick = (item) => {
+    setShow(item);
+  };
+
   return (
-  <div className="features-mainContainer">
+    <div className="features-mainContainer">
+      <ul>
+        {data.map((container, index) => (
+          <li onClick={() => handleClick(container.value)} key={index}>
+            <span>{container.title}</span>
+          </li>
+        ))}
+      </ul>
+
+      <div className="azure-Services">
+        {show === "featured" &&
+          feature.map((item) => {
+            return (
+              <AzureProductCard
+                img={item.img}
+                link={item.link}
+                text={item.text}
+              />
+            );
+          })}
+      </div>
+    </div>
+  );
+}
+
+export default Feature;
+
+{
+  /* <div className="features-mainContainer">
     <ul>
     {data.map((container, index) => (
         <li key={index}>
@@ -42,8 +76,5 @@ function Feature() {
         </li>
         ))}
     </ul>
-  </div>
-  );
+  </div> */
 }
-
-export default Feature;
