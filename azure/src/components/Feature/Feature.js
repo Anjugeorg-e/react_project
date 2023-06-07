@@ -24,7 +24,8 @@ function Feature() {
         setAi(item.AIMachineLearning);
         setCompute(item.Compute);
         setContainer(item.Containers);
-        setHybrid(item.)
+        setHybrid(item.HybridMulticloud);
+        setIot(item.)
       });
   };
 

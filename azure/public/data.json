@@ -210,7 +210,7 @@
       "link": "Azure Active Directory (Azure AD)"
     }
   ],
-  "InternetOfThings(IoT)": [
+  "InternetOfThings": [
     {
       "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/iot-central-alt-2?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
       "content": "Build IoT solutions on a hosted platform",
