@@ -1,0 +1,17 @@
+.features-mainContainer ul{
+    display:  flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    border-bottom: 0.0625rem solid #858585;
+
+}
+.features-mainContainer ul li{
+    list-style-type: none;
+    padding: 8px 24px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.features-mainContainer{
+    padding: 0 12px;
+}
