@@ -1,0 +1,340 @@
+{
+  "invent": {
+    "imgurl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSBuild-HPHero-?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1920&hei=700&qlt=100&fmt=png-alpha&fit=constrain",
+    "azureSubhead": "AZURE. INVENT WITH PURPOSE.",
+    "azureSubheadTwo": "Learn, connect, and explore",
+    "azureHeadingParagraph": "Envision and create intelligent apps with the latest technologies announced at Microsoft Build. Get started now with pay-as-you-go pricing. There’s no upfront commitment—cancel anytime. Or try Azure free for up to 30 days."
+  },
+  "onprimise": [
+    {
+      "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/ez-button-01?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1200&hei=600&qlt=100&fmt=png-alpha&fit=constrain",
+      "title": "Join us now at Microsoft Build",
+      "content": "Broaden your knowledge and advance your skills with deep, interactive sessions on app development—join live or watch on demand."
+    },
+    {
+      "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/ez-button-02?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1200&qlt=100&fit=constrain",
+      "title": "See the latest dev tools and AI announcements",
+      "content": "Create unique customer and employee experiences using comprehensive developer tools and new AI and machine learning capabilities."
+    },
+    {
+      "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/ez-button-03?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1200&qlt=100&fit=constrain",
+      "title": "Just announced: Microsoft Fabric",
+      "content": "Turn your data into a competitive advantage. Unify all your data and prepare it to support AI workloads with Microsoft Fabric, now in preview."
+    }
+  ],
+  "azureProducts": [
+    {
+      "title": "Featured",
+      "value": "featured"
+    },
+    {
+      "title": "AI + machine learning",
+      "value": "aiml"
+    },
+    {
+      "title": "Compute",
+      "value": "compute"
+    },
+    {
+      "title": "Containers",
+      "value": "containers"
+    },
+    {
+      "title": "Hybrid + multicloud",
+      "value": "hybridmulticloud"
+    },
+    {
+      "title": "Internet of Things (IoT)",
+      "value": "iot"
+    }
+  ],
+  "Featured": [
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/OpenAI-icon?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=40&qlt=100&fit=constrain",
+      "content": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/OpenAI-icon?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=40&qlt=100&fit=constrain",
+      "link": "Azure OpenAI Service"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/dev-box?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=40&qlt=100&fit=constrain",
+      "content": "Streamline development with secure, ready-to-code workstations in the cloud",
+      "link": "Microsoft Dev Box"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/virtual-machines-1?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=40&qlt=100&fit=constrain",
+      "content": "Create Linux and Windows virtual machines in seconds",
+      "link": "Azure Virtual Machines"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/machine-learning-service-1?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=40&qlt=100&fit=constrain",
+      "content": "Use an enterprise-grade service for the end-to-end machine learning lifecycle",
+      "link": "Azure Machine Learning"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/azure-devops?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=40&qlt=100&fit=constrain",
+      "content": "Share code, track work, and ship software with modern dev services",
+      "link": "Azure DevOps"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/deployment-environment?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=40&qlt=100&fmt=png-alpha&fit=constrain",
+      "content": "Quickly spin up app infrastructure environments with project-based templates",
+      "link": "Azure Deployment Environments"
+    }
+  ],
+  "AIMachineLearning": [
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/machine-learning-service?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Build, train, and deploy machine learning",
+      "link": "Azure Machine Learning"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/cognitive-services?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Add cognitive capabilities to apps with APIs",
+      "link": "Azure Cognitive Services"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/azure-applied-ai-services?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Quickly deploy AI solutions for common business processes",
+      "link": "Azure Applied AI Services"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/cognitive-search?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Add AI-powered content search to apps",
+      "link": "Azure Cognitive Search"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/bot-services?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Create bots and connect them across channels",
+      "link": "Azure Bot Service"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/home_openai-service?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Apply advanced language models to a variety of use cases",
+      "link": "Azure OpenAI Service"
+    }
+  ],
+  "Compute": [
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/virtual-machines?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Deploy VMs in seconds",
+      "link": "Azure Virtual Machines"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/vm-linux?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Provision VMs for Ubuntu, Red Hat, SUSE, and other popular distributions",
+      "link": "Linux Virtual Machines(VMs) in Azure"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/vm-sql-server?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Get industry-leading performance for SQL",
+      "link": "SQL Server on Azure Virtual Machines"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/vm-windows?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Deploy scalable, protected virtualized infrastructure",
+      "link": "Windows Virtual Machines"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/functions?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Trigger apps with serverless computing",
+      "link": "SQL Server on Azure Virtual Machines"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/app-service?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Expand apps to additional locations",
+      "link": "Azure App Service"
+    }
+  ],
+  "Containers": [
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/app-service?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Quickly create powerful cloud apps for web and mobile",
+      "link": "Azure App service"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/functions?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Trigger apps with serverless computing",
+      "link": "Azure Functions"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/kubernetes-service?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Build and scale apps with managed Kubernetes",
+      "link": "Azure Kubernetes Service(AKS)"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/container-instances?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Run containers without managing servers",
+      "link": "Azure Container Instances"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/openshift?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Build, deploy, and scale apps on fully managed OpenShift clusters",
+      "link": "Azure Red Hat OpenShift"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/azure-spring-cloud?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Bring modern microservice patterns to Spring Boot apps",
+      "link": "Azure Spring Cloud"
+    }
+  ],
+  "Hybrid]Multicloud": [
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/azure-arc?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Unify on-premises, hybrid, and cross-cloud infrastructure",
+      "link": "Azure Arc"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/azure-stack?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Build apps across on-premises, cloud, and the edge",
+      "link": "Azure Stack"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/azure-sentinel?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Stop threats with intelligent security analytics",
+      "link": "Azure Sentinel"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/security-center?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Extend threat protection to any infrastructure",
+      "link": "Azure Security Center"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/expressroute?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Create secure, private clouds",
+      "link": "Azure ExpressRoute"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/active-directory?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Enable single sign-on and multifactor identification",
+      "link": "Azure Active Directory (Azure AD)"
+    }
+  ],
+  "InternetOfThings(IoT)": [
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/iot-central-alt-2?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Build IoT solutions on a hosted platform",
+      "link": "Azure IoT Central"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/iot-edge?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Deploy cloud intelligence on local edge devices",
+      "link": "Azure IoT Edge"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/iot-hub?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Authenticate communication across devices, edge, and cloud",
+      "link": "Azure IoT Hub"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/digital-twins?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Create models of physical environments",
+      "link": "Azure Digital Twins"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/azure-sphere?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Secure your IoT hardware and software",
+      "link": "Azure Sphere"
+    },
+    {
+      "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/time-series-insights?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+      "content": "Visualize IoT data in real time",
+      "link": "Azure Time Series Insights"
+    }
+  ],
+  "customer": [
+    {
+      "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Fujitsu_img?wid=192&hei=60&fit=crop",
+      "value": "Fujitsu"
+    },
+    {
+      "image": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/NBA_25_58?wid=192&hei=60&fit=crop",
+      "value": "NBA"
+    },
+    {
+      "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/HR-block?wid=192&hei=60&fit=crop",
+      "value": "H&Rblock"
+    },
+    {
+      "image": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/home_nhs-logo?wid=192&hei=60&fit=crop",
+      "value": "NHS"
+    },
+    {
+      "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Forza?wid=192&hei=60&fit=crop",
+      "value": "Forza"
+    }
+  ],
+  "Fujitsu": {
+    "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Fujitsu-banner?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&qlt=100&fit=constrain",
+    "content": "Fujitsu increased efficiency and reduced costs by migrating its on-premises datacenters to Azure and by modernizing with a cloud-first strategy"
+  },
+
+  "NBA": {
+    "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/customer_nba?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3632&qlt=100&fit=constrain",
+    "content": "The NBA used Azure to deliver innovative experiences that keep fans engaged and help referees make consistent calls across all games"
+  },
+  "H&Rblock": {
+    "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/HR_bannner?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3200&qlt=100&fit=constrain",
+    "content": "H&R Block optimizes the tax return process using Azure AI and Azure Machine Learning to quickly digitize data from forms"
+  },
+  "NHS": {
+    "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/nhs-home-customerstory?resMode=sharp2&op_usm=1.5,0.65,15,0&hei=600&qlt=75",
+    "content": "North Umbria Healthcare NHS Foundation Trust is helping doctors turn data into medical insights with Azure Machine Learning and the Responsible AI Dashboard"
+  },
+  "Forza": {
+    "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/forza-horizon-customerstory?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3840&qlt=100&fit=constrain",
+    "content": "Turn 10 Studios created a turbocharged gaming architecture for Forza Horizon 5 using Azure Kubernetes Service (AKS) and other Azure services"
+  },
+  "discover": [
+    {
+      "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/wh-media-01?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=600&hei=300&qlt=100&fit=constrain",
+      "heading": "AZURE AI",
+      "content": "Access sophisticated vision, speech, language, and decision-making AI models and create your own machine learning models."
+    },
+    {
+      "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/wh-media-02?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=786&hei=443&qlt=100&fit=constrain",
+      "heading": "MICROSOFT AI",
+      "content": "See how Microsoft is making the promise of AI real with advancements grounded in our mission to help every person on the planet achieve more."
+    },
+    {
+      "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/wh-media-03?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=920&qlt=100&fit=constrain",
+      "heading": "AZURE DEVELOPMENT ENVIRONMENTS",
+      "content": "Now available: accelerate development with project-based, on-demand app infrastructure."
+    },
+    {
+      "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/wh-media-05?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1200&hei=600&qlt=100&fit=constrain",
+      "heading": "GITHUB ADVANCED SECURITY",
+      "content": "Add security to every phase of development with GitHub Advanced Security for Azure DevOps."
+    },
+    {
+      "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/discover-card5?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1572&hei=886&qlt=100&fit=constrain",
+      "heading": "AZURE GLOBAL INFRASTRUCTURE",
+      "content": "Go beyond the limits of on-premises datacenters with more regions than any other provider."
+    },
+    {
+      "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/wh-media-04?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=2400&qlt=100&fit=constrain",
+      "heading": "AZURE MACHINE LEARNING",
+      "content": "Support collaboration, governance, and rapid model development using new capabilities available in preview."
+    }
+  ],
+  "voiceAssistant": {
+    "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/developer-story-beeb-bbc?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1920&qlt=75&fit=constrain",
+    "content": "See how software engineer William Walker used his passion for tinkering and Azure Bot Service to develop Beeb, the BBC's branded voice assistant"
+  },
+
+  "azureCards": [
+    {
+      "image": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/pricing06?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=48&hei=48&qlt=75&fit=constrain",
+      "heading": "Start building on Azure free",
+      "content": "Get popular services free for 12 months and 55+ other services free always - plus USD 200 credit to use in your first 30 days"
+    },
+    {
+      "image": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/home_icon-chat?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=48&hei=48&qlt=75&fit=constrain",
+      "heading": "Connect with a sales specialist",
+      "content": "Chat with or call a sales specialist for personalised guidence"
+    },
+    {
+      "image": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/book-alt?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=48&hei=48&qlt=75&fit=constrain",
+      "heading": "New to Azure? Learn at your own pace",
+      "content": "Learn the basics of cloud computing and Azure with self-paced modules on Microsoft Learn"
+    }
+  ]
+}

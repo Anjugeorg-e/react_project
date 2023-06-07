@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: "light";
+  src: url("components/asset/font/bold.woff2");
+}
+
+@font-face {
+  font-family: "normal";
+  src: url("components/asset/font/normal.woff2");
+}
+
+@font-face {
+  font-family: "bold";
+  src: url("components/asset/font/light.woff2");
+}
