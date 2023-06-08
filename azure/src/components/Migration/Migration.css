@@ -1,0 +1,75 @@
+.migrationContainer {
+  background-color: #f8f9fa;
+}
+.migrationContainer img {
+  width: 100%;
+  height: 100%;
+}
+.migration-SubContainer {
+  padding: 24px;
+  background-color: #f8f9fa;
+}
+.migration-SubContainer h3 {
+  font-size: 24px;
+  margin: 0 0 25px;
+  text-align: left;
+  font-family: "light";
+  font-weight: 500;
+}
+.migration-SubContainer a {
+  text-decoration: none;
+  border: 1px solid #0078d4;
+  color: #0078d4;
+  padding: 10px 12px;
+}
+.migration-subcontainerButton {
+  text-align: left;
+}
+.migrationContainerDesktop {
+  display: none;
+}
+.desktop-migartionView h3 {
+    font-weight: 800;
+  }
+@media screen and (min-width: 1024px) {
+  .migrationContainer {
+    display: none;
+  }
+  .migrationContainerDesktop {
+    display: block;
+    margin-top: 132px;
+  }
+  .desktop-migartionView {
+    display: flex;
+
+    align-items: center;
+    background-color: #f8f9fa;
+  }
+  .desktop-migartionView h3 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  .desktop-migartionView a {
+    font-weight: 600;
+  }
+  .desktop-migartionView img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .migrationContainerDesktop {
+    display: block;
+    margin-top: 0px;
+  }
+  .desktop-migartionView img {
+    width: 50%;
+    height: 100%;
+  }
+  .desktop-migartionView h3 {
+    font-size: 48px;
+    width: 692px;
+    font-weight: 600;
+  }
+}

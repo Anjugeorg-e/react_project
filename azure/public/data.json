@@ -319,7 +319,8 @@
   ],
   "voiceAssistant": {
     "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/developer-story-beeb-bbc?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1920&qlt=75&fit=constrain",
-    "content": "See how software engineer William Walker used his passion for tinkering and Azure Bot Service to develop Beeb, the BBC's branded voice assistant"
+    "content": "See how software engineer William Walker used his passion for tinkering and Azure Bot Service to develop Beeb, the BBC's branded voice assistant",
+    "subContent" : "Watch the story (2:56)"
   },
 
   "azureCards": [

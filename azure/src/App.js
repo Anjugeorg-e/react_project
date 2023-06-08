@@ -5,6 +5,9 @@ import Innovation from './components/Innovation/innovation';
 import CloudSolution from './components/CloudSolution/CloudSolution';
 import Feature from './components/Feature/Feature';
 import Customer from './components/Customers/Customer';
+import Migration from './components/Migration/Migration';
+import Discover from './components/Discover/Discover';
+import Azurebot from './components/Azurebot/Azurebot';
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
       <CloudSolution />
       <Feature />
       <Customer />
+      <Migration />
+      <Discover />
+      <Azurebot />
     </div>
   );
 }

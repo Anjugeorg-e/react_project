@@ -1,0 +1,50 @@
+.AzureCustomerCard-Container{
+    background-color: black;
+}
+.AzureCustomerCard-Container img{
+    width: 100%;
+    height: 100%;
+    
+}
+.AzureCustomerCard-subcontainer{
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    padding: 48px 12px;
+    font-size: 18px;
+    line-height: 1.2;
+}
+.AzureCustomerCard-subcontainer p{
+    margin-bottom: 8px;
+}
+.AzureCustomerCard-subcontainer .caseStudy{
+    color: #50e6ff;
+}
+
+@media screen and (min-width:1024px) {
+
+.AzureCustomerCard-Container{
+    position: relative;
+    background-color: transparent;
+}
+.AzureCustomerCard-subcontainer{
+    position: absolute;
+    /* bottom: 5px; */
+    width: 920px;
+    left: 35px;
+    top: 292px;
+    padding-left: 25px;
+}
+
+}
+
+@media screen and (min-width:1024px) {
+    .AzureCustomerCard-subcontainer{
+        position: absolute;
+        /* bottom: 5px; */
+        width: 920px;
+        left: 35px;
+        top: 342px;
+        padding-left: 25px;
+    }
+}

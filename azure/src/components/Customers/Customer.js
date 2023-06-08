@@ -88,18 +88,3 @@ function Customer() {
 }
 
 export default Customer;
-
-{
-  /* <div className="azure-customerCard">
-    {show === "Fujitsu" && 
-       nba.map((item) => {
-            return(
-                <AzureCustomerCard
-                image={item.image}
-                content={item.content}
-                />
-            );
-        })
-    }
-</div> */
-}
