@@ -7,7 +7,9 @@ function AzureProductCard({img, text, link}) {
     <div className='azureProductCard-container'>
         <img src={img} />
         <p>{text}</p>
+        <div className='productcard-link'>
         <a href='#'>{link} </a>
+        </div>
     </div>
     </>
   )

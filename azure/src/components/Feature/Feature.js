@@ -40,6 +40,8 @@ function Feature() {
   };
 
   return (
+    <div className="features-container" >
+
     <div className="features-mainContainer">
       <ul>
         {data.map((container, index) => (
@@ -56,25 +58,68 @@ function Feature() {
               <AzureProductCard
                 img={item.img}
                 link={item.link}
-                text={item.text}
+                text={item.content}
               />
             );
           })}
+          {show === "aiml" && 
+           ai.map((item) => {
+            return (
+                <AzureProductCard
+                img={item.img}
+                link={item.link}
+                text ={item.content}
+                />
+            )
+           })}
+           {show === "compute" && 
+            compute.map((item) => {
+                return(
+                    <AzureProductCard
+                    img={item.img}
+                    link={item.link}
+                    text ={item.content}
+                    />
+                )
+            })}
+            {show === "containers" && 
+            container.map((item) => {
+                return(
+                    <AzureProductCard
+                    img={item.img}
+                    link={item.link}
+                    text ={item.content}
+                    />
+                )
+            })}
+             {show === "hybridmulticloud" && 
+            hybrid.map((item) => {
+                return(
+                    <AzureProductCard
+                    img={item.img}
+                    link={item.link}
+                    text ={item.content}
+                    />
+                )
+            })}
+            {show === "iot" && 
+            iot.map((item) => {
+                return(
+                    <AzureProductCard
+                    img={item.img}
+                    link={item.link}
+                    text ={item.content}
+                    />
+                )
+            })}
+            
+      </div> 
+    </div>
+      <div className="azure-allProduts">
+        <a href="#">See all products(200+) </a>
       </div>
     </div>
   );
 }
 
 export default Feature;
-
-{
-  /* <div className="features-mainContainer">
-    <ul>
-    {data.map((container, index) => (
-        <li key={index}>
-            <span>{container.title}</span>
-        </li>
-        ))}
-    </ul>
-  </div> */
-}

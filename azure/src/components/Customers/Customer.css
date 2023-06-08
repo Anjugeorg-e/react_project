@@ -1,0 +1,15 @@
+.customer-card ul{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+.customer-card ul li{
+    list-style-type: none;
+} 
+.customer-subcontainer{
+    padding: 24px 12px;
+    margin: 0 0 8px;
+    font-size: 12px;
+    font-family: "light";
+    text-align: left;
+}

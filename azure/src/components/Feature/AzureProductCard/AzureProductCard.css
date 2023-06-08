@@ -1,0 +1,32 @@
+.azureProductCard-container{
+    margin: 0 0 48px;
+    padding: 0 12px;
+    box-shadow: 0 .375rem .875rem 0 rgba(0,0,0,.13),0 .0625rem .25rem 0 rgba(0,0,0,.11)
+}
+
+.azureProductCard-container img{
+    width: 40px;
+    height: 40px;
+    padding: 1.5rem;
+}
+.azure-Services{
+    margin-top: 3rem;
+}
+.azureProductCard-container p{
+    padding: 24px 24px 0;
+    margin: 0 0 16px;
+}
+.azureProductCard-container a{
+    color: #0067b8;
+}
+.azureProductCard-container .productcard-link{
+    padding: 1.5rem;
+}
+
+@media screen and (min-width:1024px) {
+    .azureProductCard-container{
+        margin: 0 0 12px;
+        /* width: 223px;
+        height: 284px; */
+    }
+}
