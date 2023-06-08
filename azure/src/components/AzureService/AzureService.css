@@ -1,0 +1,55 @@
+.azureServieContainer{
+    padding: 0 12px;
+    /* color: #fff; */
+    text-align: left;
+    margin-top: 24px;
+    color: #fff;
+}
+.azureService-cards{
+    margin: 0 0 48px;
+    padding: 24px 12px 0;
+    border-radius: 5px;
+}
+.azureService-cards img{
+    width: 48px;
+    height: 48px;
+    margin-inline-start: 15px;
+}
+.azureSubContainer{
+   padding: 24px 24px 24px;
+}
+.azureSubContainer a{
+    color: #fff;
+    margin: 0 0 8px;
+    font-size: 18px;
+}
+.azureService-cards p{
+    line-height: 1.5;
+    margin-top: 13px;
+}
+.azureService-cards:nth-of-type(1){
+    background-color: #243a5e;
+   
+}
+.azureService-cards:nth-of-type(2){
+    background-color: black;
+}
+.azureService-cards:nth-of-type(3){
+    background-color: #0062ad;
+}
+
+@media screen and (min-width: 1024px) {
+    .azureServieContainer{
+        margin-block-start: 132px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:18px
+    }
+}
+@media screen and (min-width: 1440px) {
+    .azureServieContainer{
+        margin-block-start: 52px;
+        padding: 0 152px;
+        gap: 25px;
+    }
+}

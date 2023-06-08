@@ -8,6 +8,8 @@ import Customer from './components/Customers/Customer';
 import Migration from './components/Migration/Migration';
 import Discover from './components/Discover/Discover';
 import Azurebot from './components/Azurebot/Azurebot';
+import AzureService from './components/AzureService/AzureService';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <Migration />
       <Discover />
       <Azurebot />
+      <AzureService />
+      <Footer />
     </div>
   );
 }

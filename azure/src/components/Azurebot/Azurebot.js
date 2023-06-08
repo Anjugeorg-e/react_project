@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Azurebot.css';
 
 
@@ -16,12 +16,20 @@ const fetchData =()=>{
         setData(item.voiceAssistant);
     });
 };
+useEffect(() =>
+{
+    fetchData();
+},[]);
 
   return (
-    <div className='AzurebotContainer'>
+    <div className='azurebotContainer'>
         <img src={data.image} />
-        <div className='Azurebot-subContainer'>
+        <div className='azurebot-subContainer'>
             <p>{data.content}</p>
+            <div className='azureBotSection'>
+            <h3>{data.subContent}</h3>
+            <a href='#'>Check out more developer stories</a>
+            </div>
         </div>
     </div>
   )

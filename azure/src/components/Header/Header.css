@@ -150,5 +150,8 @@
   .header-Three span{
     font-size: 14px;
   }
+  .azure-headerTwo{
+    padding: 0 124px;
+  }
   
 }

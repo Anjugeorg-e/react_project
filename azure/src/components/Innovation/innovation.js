@@ -15,7 +15,7 @@ function Innovation() {
         .then((item) => {
             setData(item.invent);
         });
-        console.log(data)
+        // console.log(data)
     };
 
     useEffect(() => {
