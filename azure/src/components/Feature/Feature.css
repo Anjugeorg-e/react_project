@@ -1,60 +1,70 @@
-.features-mainContainer ul {
+.features-main-container ul {
   display: flex;
   overflow-x: scroll;
   white-space: nowrap;
   border-bottom: 0.0625rem solid #858585;
 }
-.features-mainContainer ul li {
+
+.features-main-container ul li {
   list-style-type: none;
   padding: 8px 24px;
 }
+
 ::-webkit-scrollbar {
   display: none;
 }
-.features-mainContainer {
+
+.features-main-container {
   padding: 0 24px;
 }
-.azure-allProduts {
+
+.azure-all-produts {
   padding: 24px 12px;
   text-align: left;
 }
-.azure-allProduts a {
+
+.azure-all-produts a {
   color: #0067b8;
   text-decoration: none;
 }
+
 @media screen and (min-width: 1024px) {
-  .features-mainContainer {
+  .features-main-container {
     display: flex;
     align-items: center;
   }
 
-  .features-mainContainer ul {
+  .features-main-container ul {
     display: inline;
     border-bottom: none;
     padding: 0 12px;
     width: 432px;
   }
-  .azure-Services {
+
+  .azure-services {
     display: grid;
     gap: 12px;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0 12px;
     margin-bottom: 1.5rem;
   }
-  .features-mainContainer ul li {
+
+  .features-main-container ul li {
     padding: 8px 7px;
     text-align: left;
     margin-bottom: 1rem;
   }
-  .azure-allProduts {
+
+  .azure-all-produts {
     padding: 24px 12px;
     text-align: center;
   }
+  
   @media screen and (min-width: 1440px) {
-    .features-mainContainer {
+    .features-main-container {
       padding: 0 72px;
     }
-    .azure-Services {
+    .azure-services {
       gap: 22px;
     }
   }

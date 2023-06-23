@@ -1,55 +1,53 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from "react";
 
-import './innovation.css';
+import "./innovation.css";
 
-function Innovation() {
-    const[data, setData] = useState([]);
-
-    const fetchData = () => {
-        fetch(
-            "https://raw.githubusercontent.com/Anjugeorg-e/react_project/main/azure/public/data.json"
-        )
-        .then((response) => {
-            return response.json();
-        })
-        .then((item) => {
-            setData(item.invent);
-        });
-        // console.log(data)
-    };
-
-    useEffect(() => {
-        fetchData();
-    }, []);
-
+function Innovation(props) {
   return (
-    <div className='innovation-head'>
-        <div className='mobile_invent'>
-            <div className='innovation-backgroundImage'>
-                <img src={data.imgurl} />
-            </div>
-            <div className='innovation-content'>
-                <p className='azure-invent'>{data.azureSubhead}</p>
-                <h3>{data.azureSubheadTwo}</h3>
-                <p className='azure-invent-app'>{data.azureHeadingParagraph}</p>
-            <div className='azure-header-button'>
-               <a className='getStarted' href='#'>Get started</a>
-               <a className='tryAzure' href='#'>Try Azure for free</a>
-            </div>
-            </div>
+    <div className="innovation-head">
+      <div className="mobile_invent">
+        <div className="innovation-background-image">
+          <img src={props.innovation.imgurl} alt="azure background image" />
         </div>
-            <div className='desktop-backgroundImg' style={{background: `url('${data.imgDesktopUrl}') 50% 0%/ cover no-repeat`}} >
-            <div className='innovation-content'>
-                <p className='azure-invent'>{data.azureSubhead}</p>
-                <h3>{data.azureSubheadTwo}</h3>
-                <p className='azure-invent-app'>{data.azureHeadingParagraph}</p>
-            <div className='azure-header-button'>
-               <a className='getStarted' href='#'>Get started</a>
-               <a className='tryAzure' href='#'>Try Azure for free</a>
-            </div>
-            </div>
-            </div>
+        <div className="innovation-content">
+          <p className="azure-invent">{props.innovation.azureSubhead}</p>
+          <h3>{props.innovation.azureSubheadTwo}</h3>
+          <p className="azure-invent-app">
+            {props.innovation.azureHeadingParagraph}
+          </p>
+          <div className="azure-header-button">
+            <a className="get-started" href="#">
+              Get started
+            </a>
+            <a className="try-azure" href="#">
+              Try Azure for free
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="desktop-background-img"
+        style={{
+          background: `url('${props.innovation.imgDesktopUrl}') 50% 0%/ cover no-repeat`,
+        }}
+      >
+        <div className="innovation-content">
+          <p className="azure-invent">{props.innovation.azureSubhead}</p>
+          <h3>{props.innovation.azureSubheadTwo}</h3>
+          <p className="azure-invent-app">
+            {props.innovation.azureHeadingParagraph}
+          </p>
+          <div className="azure-header-button">
+            <a className="get-started" href="#">
+              Get started
+            </a>
+            <a className="try-azure" href="#">
+              Try Azure for free
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
-export default Innovation
+export default Innovation;

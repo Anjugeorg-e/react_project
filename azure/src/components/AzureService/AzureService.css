@@ -1,53 +1,60 @@
-.azureServieContainer{
+.azure-servie-container{
     padding: 0 12px;
-    /* color: #fff; */
     text-align: left;
     margin-top: 24px;
     color: #fff;
 }
-.azureService-cards{
+
+.azure-service-cards{
     margin: 0 0 48px;
     padding: 24px 12px 0;
     border-radius: 5px;
 }
-.azureService-cards img{
+
+.azure-service-cards img{
+    margin-inline-start: 15px;
     width: 48px;
     height: 48px;
-    margin-inline-start: 15px;
 }
-.azureSubContainer{
+
+.azure-sub-container{
    padding: 24px 24px 24px;
 }
-.azureSubContainer a{
+
+.azure-sub-container a{
     color: #fff;
     margin: 0 0 8px;
     font-size: 18px;
 }
-.azureService-cards p{
+
+.azure-service-cards p{
     line-height: 1.5;
     margin-top: 13px;
 }
-.azureService-cards:nth-of-type(1){
+
+.azure-service-cards:nth-of-type(1){
     background-color: #243a5e;
-   
 }
-.azureService-cards:nth-of-type(2){
+
+.azure-service-cards:nth-of-type(2){
     background-color: black;
 }
-.azureService-cards:nth-of-type(3){
+
+.azure-service-cards:nth-of-type(3){
     background-color: #0062ad;
 }
 
 @media screen and (min-width: 1024px) {
-    .azureServieContainer{
+    .azure-servie-container{
         margin-block-start: 132px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap:18px
     }
 }
+
 @media screen and (min-width: 1440px) {
-    .azureServieContainer{
+    .azure-servie-container{
         margin-block-start: 52px;
         padding: 0 152px;
         gap: 25px;

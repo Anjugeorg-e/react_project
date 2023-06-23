@@ -8,40 +8,40 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <div class="azure_footer">
-      <div class="azure_footer_nav">
-        <div class="footer_navone">
+    <div class="azure-footer">
+      <div class="azure-footer-nav">
+        <div class="footer-nav-one">
           <img src={azureLogo} />
           <a href="#">Get the Azure mobile app</a>
         </div>
-        <div class="footer_navtwo">
+        <div class="footer-nav-two">
           <img class="twitter" src={twitter} />
           <img src= {instagram}/>
           <img src={linkedin}  />
         </div>
       </div>
-      <div class="footer_nav_column">
-        <div class="footer_column_one nav_content">
+      <div class="footer-nav-column">
+        <div class="footer-column-one nav-content">
           Explore Azure
         </div>
-        <div class="footer_column_two nav_content">
+        <div class="footer-column-two nav-content">
           Products and pricing
         </div>
-        <div class="footer_column_three nav_content">
+        <div class="footer-column-three nav-content">
           Solutions and support
         </div>
-        <div class="footer_column_four nav_content">
+        <div class="footer-column-four nav-content">
           Partners
         </div>
-        <div class="footer_column_five nav_content">
+        <div class="footer-column-five nav-content">
           Resources
         </div>
-        <div class="footer_column_six nav_content">
+        <div class="footer-column-six nav-content">
           Cloud computing
         </div>
       </div>
-      <div class="footer_navcolumn_two">
-        <div class=" footer_twocolumnone footertwo_nav">
+      <div class="footer-navcolumn-two">
+        <div class=" footer-twocolumnone footertwo-nav">
           <h3>Explore to Azure</h3>
           <ul>
             <li>What is Azure?</li>
@@ -53,7 +53,7 @@ function Footer() {
             <li>Customer stories</li>
           </ul>
         </div>
-        <div class="footer_twocolumntwo footertwo_nav">
+        <div class="footer-twocolumntwo footertwo-nav">
           <h3>Products and pricing</h3>
           <ul>
             <li>Products</li>
@@ -64,7 +64,7 @@ function Footer() {
             <li>optimise your costs</li>
           </ul>
         </div>
-        <div class="footer_twocolumnthree footertwo_nav">
+        <div class="footer-twocolumnthree footertwo-nav">
           <h3>Solutions andsupport</h3>
           <ul>
             <li>Solutions</li>
@@ -74,7 +74,7 @@ function Footer() {
             <li>Azure demo and live Q&A</li>
           </ul>
         </div>
-        <div class="footer_twocolumnfour footertwo_nav">
+        <div class="footer-twocolumnfour footertwo-nav">
           <h3>Partners</h3>
           <ul>
             <li>Azure marketplace</li>
@@ -82,7 +82,7 @@ function Footer() {
             <li>Technology partners</li>
           </ul>
         </div>
-        <div class="footer_twocolumnfive footertwo_nav">
+        <div class="footer-twocolumnfive footertwo-nav">
           <h3>Resources</h3>
           <ul>
             <li>Training and certifications</li>
@@ -96,7 +96,7 @@ function Footer() {
             <li>Videos</li>
           </ul>
         </div>
-        <div class="footer_twocolumnsix footertwo_nav">
+        <div class="footer-twocolumnsix footertwo-nav">
           <h3>Cloud Computing</h3>
           <ul>
             <li>What is machine learning?</li>
@@ -108,10 +108,10 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <div class="footer_nav_row">
-        <div class="dropdown_cultures">
+      <div class="footer-nav-row">
+        <div class="dropdown-cultures">
           <p>Change language</p>
-          <select class="dropdown_cultures_one" name="cultures" id="cultures">
+          <select class="dropdown-cultures-one" name="cultures" id="cultures">
             <option value="en-in">English (India)</option>
             <option value="en-us">English(US)</option>
             <option value="en-as">English(Australia)</option>
@@ -119,7 +119,7 @@ function Footer() {
             <option value="en-es">Espanol</option>
           </select>
         </div>
-        <div class="footer_min_links">
+        <div class="footer-min-links">
           <ul>
             <li>Diversity and Inclusion</li>
             <li>Accessibility</li>
@@ -131,7 +131,7 @@ function Footer() {
             <li>Contact us</li>
             <li>Feedback</li>
             <li>Sitemap</li>
-            <li class="footer_microsoft">© Microsoft 2023</li>
+            <li class="footer-microsoft">© Microsoft 2023</li>
           </ul>
         </div>
       </div>

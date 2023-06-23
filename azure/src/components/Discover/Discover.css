@@ -1,59 +1,60 @@
-.discover-baseContainer{
+.discover-base-container{
     margin-top: 48px;
     padding: 0 12px;
 }
-.discover-baseContainer h3{
+.discover-base-container h3{
     text-align: left;
     padding: 24px 0;
     font-weight: 500;
 }
-.discoverCards img{
+.discover-cards img{
     width: 100%;
     height: 100%;
 }
-.discoverCards{
+.discover-cards{
     margin: 0 0 48px;
     text-align: left;
     box-shadow: 0 0.1875rem 0.4375rem 0 rgb(0 0 0 / 13%), 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 11%);
 }
-.discoverCards-subContainer{
+.discover-cards-sub-container{
     padding: 24px 24px 24px;
 }
-.discoverCards h4{
+.discover-cards h4{
     font-weight: 400;
     margin: 0 0 8px;
 }
-.discoverCards-subContainer p{
+.discover-cards-sub-container p{
     line-height: 1.2;
     margin: 0 0 16px;
     font-family: "normal"
 }
-.discoverCards-subContainer a{
+.discover-cards-sub-container a{
     color: #0067b8;
     text-decoration: none;
     font-weight: 600;
+    font-family: "normal";
 }
 
 @media screen and (min-width: 768px) {
-    .discoverContainer{
+    .discover-container{
         padding: 0 12px;
     }
 }
 
 @media screen and (min-width: 1024px) {
-   .discoverContainer{
+   .discover-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 12px;
    }
-   .discover-baseContainer h3{
+   .discover-base-container h3{
     text-align: center;
     font-size: 19px;
     font-weight: 400;
     margin: 0 0 8px;
 }
 
-   .discoverCards{
+   .discover-cards{
     display: flex;
     flex-direction: column;
     margin: 0 0 12px;
@@ -61,10 +62,10 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .discover-baseContainer{
+    .discover-base-container{
         padding: 0 112px;
     }
-    .discover-baseContainer h3{
+    .discover-base-container h3{
         text-align: center;
         font-size: 29px;
     }

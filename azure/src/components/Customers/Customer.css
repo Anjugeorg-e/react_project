@@ -4,14 +4,16 @@
     overflow-x: scroll;
     margin-bottom: 42px;
 }
+
 .customer-card ul li{
     list-style-type: none;
 } 
-.customer-subcontainer{
+
+.customer-sub-container{
     padding: 24px 12px;
     margin: 0 0 8px;
     font-size: 12px;
-    font-family: "light";
+    font-family: 'light';
     text-align: left;
 }
 
@@ -20,10 +22,11 @@
         display: flex;
         justify-content: space-between;
     }
-    .customer-subcontainer h2{
+    
+    .customer-sub-container h2{
         text-align: center;
         font-size: 21px;
-        font-family: "light";
+        font-family: 'light';
     }
 }
 

@@ -1,87 +1,107 @@
-.innovation-backgroundImage{
-    background-color: black;
+.innovation-background-image {
+  background-color: black;
 }
-.innovation-backgroundImage img{
-    width: 100%;
-    height: 100%;
+
+.innovation-background-image img {
+  width: 100%;
+  height: 100%;
 }
-.innovation-content{
-    background-color: black;
-    color: white;
-    text-align: left;
-    padding: 3rem 12px;
+
+.innovation-content {
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding: 3rem 12px;
 }
-.innovation-content .azure-invent{
-    margin: 0 0 16px;
-    font-size: 16px;
+
+.innovation-content .azure-invent {
+  margin: 0 0 16px;
+  font-size: 16px;
 }
-.innovation-content h3{
-    font-size: 29px;
-    margin: 0 0 16px;
+
+.innovation-content h3 {
+  font-size: 29px;
+  margin: 0 0 16px;
 }
-.innovation-content p{
-    margin: 0 0 16px;
+
+.innovation-content p {
+  margin: 0 0 16px;
 }
-.innovation-content .azure-invent-app{
-    line-height: 1.5;
-    font-size: 16px;
+
+.innovation-content .azure-invent-app {
+  line-height: 1.5;
+  font-size: 16px;
 }
-.azure-header-button{
-    margin-top: 31px;
+
+.azure-header-button {
+  margin-top: 31px;
 }
-.azure-header-button a{
-    text-decoration: none;
-    padding: 10px 12px;
-    margin: 8px 11px 8px 0px;
+
+.azure-header-button a {
+  text-decoration: none;
+  padding: 10px 12px;
+  margin: 8px 11px 8px 0px;
 }
-.azure-header-button .getStarted{
-    color: black;
-    background-color: #50e6ff;
+
+.azure-header-button .get-started {
+  color: black;
+  background-color: #50e6ff;
 }
-.azure-header-button .tryAzure{
-    color: #fff;
-    border: 1px solid #fff;
+
+.azure-header-button .try-azure {
+  color: #fff;
+  border: 1px solid #fff;
 }
-.desktop-backgroundImg{
-    display: none;
+
+.desktop-background-img {
+  display: none;
+}
+
+.azure-invent {
+  font-size: 19px;
 }
 
 @media screen and (min-width: 768px) {
-    .azure-header-button a{
-        text-decoration: none;
-        padding: 10px 12px;
-        margin: 8px 24px 8px 0px;
-    }
-}
-@media screen and (min-width: 1024px){
-    .innovation-content{
-        padding: 60px;
-    }
-}
-@media screen and (min-width: 1440px){
-
-    .mobile_invent{
-        display: none;
-    }
-    .desktop-backgroundImg{
-        display: block;
-        padding: 50px;
-    }
-    .desktop-backgroundImg .innovation-content{
-        background-color: transparent;
-        padding: 52px;
-    }
-    .desktop-backgroundImg .innovation-content h3{
-        font-size: 50px;
-        width: 39%;
-    }
-    .desktop-backgroundImg .innovation-content .azure-invent-app{
-        width: 33%;
-    }
+  .azure-header-button a {
+    text-decoration: none;
+    padding: 10px 12px;
+    margin: 8px 24px 8px 0px;
+  }
 }
 
-@media screen and (min-width: 1600px){
-    .desktop-backgroundImg{
-        padding: 100px;
-    }
+@media screen and (min-width: 1024px) {
+  .innovation-content {
+    padding: 60px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .mobile_invent {
+    display: none;
+  }
+
+  .desktop-background-img {
+    display: block;
+    padding: 50px;
+  }
+
+  .desktop-background-img .innovation-content {
+    background-color: transparent;
+    padding: 52px;
+  }
+
+  .desktop-background-img .innovation-content h3 {
+    font-size: 50px;
+    width: 39%;
+  }
+
+  .desktop-background-img .innovation-content .azure-invent-app {
+    width: 33%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .desktop-background-img {
+    padding: 100px;
+  }
 }

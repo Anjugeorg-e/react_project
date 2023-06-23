@@ -15,6 +15,7 @@
 .azureProductCard-container p{
     padding: 24px 24px 0;
     margin: 0 0 16px;
+    font-family: "normal";
 }
 .azureProductCard-container a{
     color: #0067b8;

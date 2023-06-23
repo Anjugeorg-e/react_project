@@ -5,22 +5,22 @@ import "./Migration.css";
 
 function Migration() {
   return (
-    <div className="migrationBaseContainer">
-      <div className="migrationContainer">
-        <img src={migrationMobile} />
-        <div className="migration-SubContainer">
+    <div className="migration-base-container">
+      <div className="migration-container">
+        <img src={migrationMobile} alt="migartion" />
+        <div className="migration-sub-container">
           <h3>Accelerate your migration and modernization with Azure</h3>
-          <div className="migration-subcontainerButton">
+          <div className="migration-sub-container-button">
             <a href="#">Explore help and tools</a>
           </div>
         </div>
       </div>
-      <div className="migrationContainerDesktop">
-        <div className="desktop-migartionView">
-          <img src={migrationMobile} />
-          <div className="migration-SubContainer">
+      <div className="migration-container-desktop">
+        <div className="desktop-migartion-view">
+          <img src={migrationMobile} alt="migration mobileview" />
+          <div className="migration-sub-container">
             <h3>Accelerate your migration and modernization with Azure</h3>
-            <div className="migration-subcontainerButton">
+            <div className="migration-sub-container-button">
               <a href="#">Explore help and tools</a>
             </div>
           </div>

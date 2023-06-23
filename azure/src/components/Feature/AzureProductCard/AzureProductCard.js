@@ -1,18 +1,18 @@
-import React from 'react'
-import './AzureProductCard.css'
+import React from "react";
+import "./AzureProductCard.css";
 
-function AzureProductCard({img, text, link}) {
+function AzureProductCard({ img, text, link }) {
   return (
     <>
-    <div className='azureProductCard-container'>
+      <div className="azureProductCard-container">
         <img src={img} />
         <p>{text}</p>
-        <div className='productcard-link'>
-        <a href='#'>{link} </a>
+        <div className="productcard-link">
+          <a href="#">{link} </a>
         </div>
-    </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default AzureProductCard
+export default AzureProductCard;

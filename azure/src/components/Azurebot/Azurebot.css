@@ -1,74 +1,77 @@
-.azurebotContainer{
-    background-color: black;
-    padding: 0 12px;
-    color: #fff;
-    text-align: left;
-}
-.azurebotContainer img{
-    width: 100%;
-    height: 100%;
-}
-.azurebot-subContainer{
-    background-color: black;
-    font-size: 19px;
-    font-family: "normal";
-    font-weight: 600;
-    line-height: 1.2;
-    padding: 48px 0;
-}
-.azurebot-subContainer p{
-    margin: 0 0 8px;
-}
-.azurebot-subContainer h3{
-    padding: 10px 12px 10px 35px;
-    font-size: 16px;
-    background-color: #0078d4;
-    width: 60%;
-    margin: 16px 24px 16px 0;
-}
-.azurebot-subContainer a{
-    color: #50e6ff;
-    text-decoration: none;
-    font-size: 16px;
+.azurebot-container {
+  background-color: black;
+  padding: 0 12px;
+  color: #fff;
+  text-align: left;
 }
 
+.azurebot-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.azurebot-sub-container {
+  background-color: black;
+  font-size: 19px;
+  font-family: "normal";
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 48px 0;
+}
+
+.azurebot-sub-container p {
+  margin: 0 0 8px;
+}
+
+.azurebot-sub-container h3 {
+  padding: 10px 12px 10px 35px;
+  font-size: 16px;
+  background-color: #0078d4;
+  width: 60%;
+  margin: 16px 24px 16px 0;
+}
+
+.azurebot-sub-container a {
+  color: #50e6ff;
+  text-decoration: none;
+  font-size: 16px;
+}
 
 @media screen and (min-width: 768px) {
-    .azurebot-subContainer h3{
-        width: 25%;
-    }
-    .azureBotSection{
-        display: flex;
-        align-items: center;
-    }
+  .azurebot-sub-container h3 {
+    width: 25%;
+  }
 
+  .azurebot-section {
+    display: flex;
+    align-items: center;
+  }
 }
+
 @media screen and (min-width: 1024px) {
-    .azurebotContainer{
-        background-color: transparent;
-        position: relative;
-    }
-    .azurebot-subContainer{
-        background-color: black;
-        position: absolute;
-        top: 252px;
-        width: 83%;
-        left: 38px;
-        padding: 48px;
-    }
+  .azurebot-container {
+    background-color: transparent;
+    position: relative;
+  }
+  
+  .azurebot-sub-container {
+    background-color: black;
+    position: absolute;
+    top: 252px;
+    width: 83%;
+    left: 38px;
+    padding: 48px;
+  }
 }
 
-@media screen and (min-width:1440px) {
-    .azurebotContainer{
-
-    }
-    .azurebot-subContainer{
-        background-color: black;
-        position: absolute;
-        font-size: 21px;
-        top: 312px;
-        width: 43%;
-        left: 128px;
-        padding: 48px;
-    }
+@media screen and (min-width: 1440px) {
+  .azurebot-sub-container {
+    background-color: black;
+    position: absolute;
+    font-size: 21px;
+    top: 312px;
+    width: 43%;
+    left: 128px;
+    padding: 48px;
+  }
 }
